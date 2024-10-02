@@ -2,9 +2,9 @@
   "name": "@usewaypoint/block-container",
   "version": "0.0.2",
   "description": "@usewaypoint/document compatible Container component",
-  "main": "./src/index.ts",
+  "main": "./src/index.tsx",
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.tsx"
   },
   "files": [
     "dist"

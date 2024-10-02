@@ -2,9 +2,9 @@
   "name": "@usewaypoint/block-avatar",
   "version": "0.0.3",
   "description": "@usewaypoint/document compatible Avatar component",
-  "main": "./src/index.ts",
+  "main": "./src/index.tsx",
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.tsx"
   },
   "files": [
     "dist"

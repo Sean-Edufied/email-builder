@@ -2,9 +2,9 @@
   "name": "@usewaypoint/block-divider",
   "version": "0.0.4",
   "description": "@usewaypoint/document compatible Divider component",
-  "main": "./src/index.ts",
+  "main": "./src/index.tsx",
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.tsx"
   },
   "files": [
     "dist"
