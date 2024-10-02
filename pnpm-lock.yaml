@@ -69,6 +69,9 @@ importers:
       '@testing-library/react':
         specifier: ^14.2.1
         version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
 
   packages/block-button:
     dependencies:
@@ -82,6 +85,9 @@ importers:
       '@testing-library/react':
         specifier: ^14.2.1
         version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
 
   packages/block-columns-container:
     dependencies:
@@ -95,6 +101,9 @@ importers:
       '@testing-library/react':
         specifier: ^14.2.1
         version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
 
   packages/block-container:
     dependencies:
@@ -108,6 +117,9 @@ importers:
       '@testing-library/react':
         specifier: ^14.2.1
         version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
 
   packages/block-divider:
     dependencies:
@@ -121,6 +133,9 @@ importers:
       '@testing-library/react':
         specifier: ^14.2.1
         version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
 
   packages/block-heading:
     dependencies:
@@ -134,6 +149,9 @@ importers:
       '@testing-library/react':
         specifier: ^14.2.1
         version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
 
   packages/block-html:
     dependencies:
@@ -147,6 +165,9 @@ importers:
       '@testing-library/react':
         specifier: ^14.2.1
         version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
 
   packages/block-image:
     dependencies:
@@ -160,6 +181,9 @@ importers:
       '@testing-library/react':
         specifier: ^14.2.1
         version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
 
   packages/block-spacer:
     dependencies:
@@ -173,6 +197,9 @@ importers:
       '@testing-library/react':
         specifier: ^14.2.1
         version: 14.3.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
 
   packages/block-text:
     dependencies:
@@ -195,6 +222,9 @@ importers:
       '@types/insane':
         specifier: ^1.0.0
         version: 1.0.0
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
 
   packages/document-core:
     dependencies:
@@ -277,6 +307,9 @@ importers:
         specifier: ^4.5.1
         version: 4.5.5(@types/react@18.3.10)(react@18.3.1)
     devDependencies:
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
       '@types/react':
         specifier: ^18.2.55
         version: 18.3.10
@@ -355,6 +388,10 @@ importers:
       zod:
         specifier: ^1 || ^2 || ^3
         version: 3.23.8
+    devDependencies:
+      '@types/node':
+        specifier: ^22.7.4
+        version: 22.7.4
 
 packages:
 

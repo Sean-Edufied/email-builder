@@ -26,7 +26,8 @@
   },
   "devDependencies": {
     "@testing-library/react": "^14.2.1",
-    "@types/insane": "^1.0.0"
+    "@types/insane": "^1.0.0",
+    "@types/node": "^22.7.4"
   },
   "dependencies": {
     "insane": "^2.6.2",
