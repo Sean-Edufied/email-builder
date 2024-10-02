@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      turbo:
+        specifier: ^2.1.3
+        version: 2.1.3
     devDependencies:
       '@jest/globals':
         specifier: ^29.7.0
@@ -72,6 +76,9 @@ importers:
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.4
+      vite:
+        specifier: ^5.1.0
+        version: 5.4.8(@types/node@22.7.4)
 
   packages/block-button:
     dependencies:
@@ -88,6 +95,9 @@ importers:
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.4
+      vite:
+        specifier: ^5.1.0
+        version: 5.4.8(@types/node@22.7.4)
 
   packages/block-columns-container:
     dependencies:
@@ -104,6 +114,9 @@ importers:
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.4
+      vite:
+        specifier: ^5.1.0
+        version: 5.4.8(@types/node@22.7.4)
 
   packages/block-container:
     dependencies:
@@ -120,6 +133,9 @@ importers:
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.4
+      vite:
+        specifier: ^5.1.0
+        version: 5.4.8(@types/node@22.7.4)
 
   packages/block-divider:
     dependencies:
@@ -136,6 +152,9 @@ importers:
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.4
+      vite:
+        specifier: ^5.1.0
+        version: 5.4.8(@types/node@22.7.4)
 
   packages/block-heading:
     dependencies:
@@ -152,6 +171,9 @@ importers:
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.4
+      vite:
+        specifier: ^5.1.0
+        version: 5.4.8(@types/node@22.7.4)
 
   packages/block-html:
     dependencies:
@@ -168,6 +190,9 @@ importers:
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.4
+      vite:
+        specifier: ^5.1.0
+        version: 5.4.8(@types/node@22.7.4)
 
   packages/block-image:
     dependencies:
@@ -184,6 +209,9 @@ importers:
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.4
+      vite:
+        specifier: ^5.1.0
+        version: 5.4.8(@types/node@22.7.4)
 
   packages/block-spacer:
     dependencies:
@@ -200,6 +228,9 @@ importers:
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.4
+      vite:
+        specifier: ^5.1.0
+        version: 5.4.8(@types/node@22.7.4)
 
   packages/block-text:
     dependencies:
@@ -225,6 +256,9 @@ importers:
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.4
+      vite:
+        specifier: ^5.1.0
+        version: 5.4.8(@types/node@22.7.4)
 
   packages/document-core:
     dependencies:
@@ -234,6 +268,10 @@ importers:
       zod:
         specifier: ^1 || ^2 || ^3
         version: 3.23.8
+    devDependencies:
+      vite:
+        specifier: ^5.1.0
+        version: 5.4.8(@types/node@22.7.4)
 
   packages/editor-sample:
     dependencies:
@@ -341,7 +379,7 @@ importers:
         specifier: ^5.2.2
         version: 5.6.2
       vite:
-        specifier: ^5.1.0
+        specifier: ^5.4.8
         version: 5.4.8(@types/node@22.7.4)
 
   packages/email-builder:
@@ -392,6 +430,9 @@ importers:
       '@types/node':
         specifier: ^22.7.4
         version: 22.7.4
+      vite:
+        specifier: ^5.4.8
+        version: 5.4.8(@types/node@22.7.4)
 
 packages:
 
@@ -3208,6 +3249,40 @@ packages:
         optional: true
       typescript:
         optional: true
+
+  turbo-darwin-64@2.1.3:
+    resolution: {integrity: sha512-ouJOm0g0YyoBuhmikEujVCBGo3Zr0lbSOWFIsQtWUTItC88F2w2byhjtsYGPXQwMlTbXwmoBU2lOCfWNkeEwHQ==}
+    cpu: [x64]
+    os: [darwin]
+
+  turbo-darwin-arm64@2.1.3:
+    resolution: {integrity: sha512-j2FOJsK4LAOtHQlb3Oom0yWB/Vi0nF1ljInr311mVzHoFAJRZtfW2fRvdZRb/lBUwjSp8be58qWHzANIcrA0OA==}
+    cpu: [arm64]
+    os: [darwin]
+
+  turbo-linux-64@2.1.3:
+    resolution: {integrity: sha512-ubRHkI1gSel7H7wsmxKK8C9UlLWqg/2dkCC88LFupaK6TKgvBKqDqA0Z1M9C/escK0Jsle2k0H8bybV9OYIl4Q==}
+    cpu: [x64]
+    os: [linux]
+
+  turbo-linux-arm64@2.1.3:
+    resolution: {integrity: sha512-LffUL+e5wv7BtD6DgnM2kKOlDkMo2eRjhbAjVnrCD3wi2ug0tl6NDzajnHHjtaMyOnIf4AvzSKdLWsBxafGBQA==}
+    cpu: [arm64]
+    os: [linux]
+
+  turbo-windows-64@2.1.3:
+    resolution: {integrity: sha512-S9SvcZZoaq5jKr6kA6eF7/xgQhVn8Vh7PVy5lono9zybvhyL4eY++y2PaLToIgL8G9IcbLmgOC73ExNjFBg9XQ==}
+    cpu: [x64]
+    os: [win32]
+
+  turbo-windows-arm64@2.1.3:
+    resolution: {integrity: sha512-twlEo8lRrGbrR6T/ZklUIquW3IlFCEtywklgVA81aIrSBm56+GEVpSrHhIlsx1hiYeSNrs+GpDwZGe+V7fvEVQ==}
+    cpu: [arm64]
+    os: [win32]
+
+  turbo@2.1.3:
+    resolution: {integrity: sha512-lY0yj2GH2a2a3NExZ3rGe+rHUVeFE2aXuRAue57n+08E7Z7N7YCmynju0kPC1grAQzERmoLpKrmzmWd+PNiADw==}
+    hasBin: true
 
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
@@ -6513,6 +6588,33 @@ snapshots:
       - supports-color
       - tsx
       - yaml
+
+  turbo-darwin-64@2.1.3:
+    optional: true
+
+  turbo-darwin-arm64@2.1.3:
+    optional: true
+
+  turbo-linux-64@2.1.3:
+    optional: true
+
+  turbo-linux-arm64@2.1.3:
+    optional: true
+
+  turbo-windows-64@2.1.3:
+    optional: true
+
+  turbo-windows-arm64@2.1.3:
+    optional: true
+
+  turbo@2.1.3:
+    optionalDependencies:
+      turbo-darwin-64: 2.1.3
+      turbo-darwin-arm64: 2.1.3
+      turbo-linux-64: 2.1.3
+      turbo-linux-arm64: 2.1.3
+      turbo-windows-64: 2.1.3
+      turbo-windows-arm64: 2.1.3
 
   type-check@0.4.0:
     dependencies:

@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "npx tsc",
+    "build": "tsc && vite build",
     "test": "npx jest"
   },
   "author": "carlos@usewaypoint.com",
@@ -30,5 +30,8 @@
     "tsup": "^8.0.2",
     "typescript": "^5.3.3",
     "zod": "^3.22.4"
+  },
+  "dependencies": {
+    "turbo": "^2.1.3"
   }
 }
