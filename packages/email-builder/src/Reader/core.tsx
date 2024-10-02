@@ -84,10 +84,10 @@ export type TReaderDocument = Record<string, TReaderBlock>;
 
 const BaseReaderBlock = buildBlockComponent(READER_DICTIONARY);
 
-export type TReaderBlockProps = { id: string };
-export function ReaderBlock({ id }: TReaderBlockProps) {
+export type TReaderBlockProps = { id: string, key?: string };
+export function ReaderBlock({ id, key }: TReaderBlockProps) {
   const document = useReaderDocument();
-  return <BaseReaderBlock {...document[id]} />;
+  return <BaseReaderBlock {...document[id]} key={key} />;
 }
 
 export type TReaderProps = {

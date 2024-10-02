@@ -10,6 +10,7 @@ export default function ColumnsContainerReader({ style, props }: ColumnsContaine
   const { columns, ...restProps } = props ?? {};
   let cols = undefined;
   if (columns) {
+    // @ts-ignore
     cols = columns.map((col) => col.childrenIds.map((childId) => <ReaderBlock key={childId} id={childId} />));
   }
 
