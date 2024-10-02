@@ -3,7 +3,7 @@
   "compilerOptions": {
     "target": "es2015",
     "module": "esnext",
-    "outDir": "./dist"
+    "lib": ["es6", "dom"],
   },
-  "exclude": ["dist"]
+  "exclude": ["tests/**/*.spec.ts", "tests/**/*.spec.tsx", "jest.config.ts"],
 }

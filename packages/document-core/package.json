@@ -16,7 +16,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "vite build",
+    "build": "npx tsc --project tsconfig.build.json",
     "check-types": "tsc --noEmit"
   },
   "author": "carlos@usewaypoint.com",
