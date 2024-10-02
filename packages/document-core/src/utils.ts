@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import {type JSX} from 'react';
 
 export type BaseZodDictionary = { [name: string]: z.AnyZodObject };
 export type DocumentBlocksDictionary<T extends BaseZodDictionary> = {

@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import { BaseZodDictionary, BlockConfiguration, DocumentBlocksDictionary } from '../utils';
+import { type BaseZodDictionary, type BlockConfiguration,type DocumentBlocksDictionary } from '../utils';
 
 /**
  *

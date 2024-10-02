@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BaseZodDictionary, BlockConfiguration, DocumentBlocksDictionary } from '../utils';
+import { type BaseZodDictionary, type BlockConfiguration, type DocumentBlocksDictionary } from '../utils';
 
 /**
  * @param blocks Main DocumentBlocksDictionary

@@ -4,7 +4,8 @@
   "description": "Tools to render waypoint-style documents (core package)",
   "main": "./src/index.ts",
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./utils": "./src/utils.ts"
   },
   "files": [
     "dist"

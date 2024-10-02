@@ -1,4 +1,4 @@
-import { BaseZodDictionary, DocumentBlocksDictionary } from "../utils";
+import { type BaseZodDictionary, type DocumentBlocksDictionary } from "../utils";
 
 /**
  * Identity function to type a DocumentBlocksDictionary
