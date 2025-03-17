@@ -1,0 +1,1 @@
+{"version":3,"file":"buildBlockComponent.d.ts","sourceRoot":"","sources":["buildBlockComponent.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,MAAM,OAAO,CAAC;AAE1B,OAAO,EAAE,KAAK,iBAAiB,EAAE,KAAK,kBAAkB,EAAE,KAAK,wBAAwB,EAAE,MAAM,UAAU,CAAC;AAE1G;;;GAGG;AACH,MAAM,CAAC,OAAO,UAAU,mBAAmB,CAAC,CAAC,SAAS,iBAAiB,EAAE,MAAM,EAAE,wBAAwB,CAAC,CAAC,CAAC,oBAC3D,kBAAkB,CAAC,CAAC,CAAC,uBAIrE"}
